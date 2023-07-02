@@ -301,7 +301,7 @@ class IPATool(object):
                 "appVer": appVer,
                 "appId": appId,
                 "appVerId": appVerId,
-
+                "downloadUrl": downInfo.URL,
                 "downloadedIPA": filepath,
                 "downloadedVerId": appVerId,
             })
